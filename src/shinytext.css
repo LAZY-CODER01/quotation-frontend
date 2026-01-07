@@ -17,6 +17,7 @@
   letter-spacing: 0.025em;
 }
 
+
 @keyframes shine {
   0%, 100% {
     background-position: 200% 0;
