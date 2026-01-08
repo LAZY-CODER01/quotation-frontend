@@ -6,9 +6,9 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      // Catch any request starting with /api
+
       '/api': {
-        target: 'https://quotation-ph3n.onrender.com', // Your Render Backend
+        target: 'https://quotationv2.onrender.com', 
         changeOrigin: true,
         secure: false,
       }
