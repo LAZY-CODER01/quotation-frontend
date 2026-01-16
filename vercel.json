@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://quotationv2.onrender.com/api/:match*"
+      "destination": "https://dbest.onrender.com/api/:match*"
     },
     {
       "source": "/(.*)",
