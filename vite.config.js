@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
 
       '/api': {
-        target: 'https://quotationv2.onrender.com', 
+        target: 'https://dbest.onrender.com', 
         changeOrigin: true,
         secure: false,
       }
